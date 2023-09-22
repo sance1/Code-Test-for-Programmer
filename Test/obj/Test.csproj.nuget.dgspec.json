@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/CodeTestForProgrammer/Test/Test.csproj": {}
+    "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/Test/Test.csproj": {}
   },
   "projects": {
-    "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/CodeTestForProgrammer/Test/Test.csproj": {
+    "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/Test/Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/CodeTestForProgrammer/Test/Test.csproj",
+        "projectUniqueName": "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/Test/Test.csproj",
         "projectName": "Test",
-        "projectPath": "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/CodeTestForProgrammer/Test/Test.csproj",
+        "projectPath": "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/Test/Test.csproj",
         "packagesPath": "/Users/sanceaenulyakin/.nuget/packages/",
-        "outputPath": "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/CodeTestForProgrammer/Test/obj/",
+        "outputPath": "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sanceaenulyakin/.nuget/NuGet/NuGet.Config"

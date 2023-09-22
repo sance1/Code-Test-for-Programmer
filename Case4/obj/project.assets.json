@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/CodeTestForProgrammer/Case4/Case4.csproj",
+      "projectUniqueName": "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/Case4/Case4.csproj",
       "projectName": "Case4",
-      "projectPath": "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/CodeTestForProgrammer/Case4/Case4.csproj",
+      "projectPath": "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/Case4/Case4.csproj",
       "packagesPath": "/Users/sanceaenulyakin/.nuget/packages/",
-      "outputPath": "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/CodeTestForProgrammer/Case4/obj/",
+      "outputPath": "/Users/sanceaenulyakin/Documents/Project/Code Test For Programmer/Case4/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sanceaenulyakin/.nuget/NuGet/NuGet.Config"
