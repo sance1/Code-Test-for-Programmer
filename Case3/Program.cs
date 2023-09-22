@@ -35,7 +35,7 @@ class Program
                 Console.WriteLine(notValid);
             }
             
-            Console.WriteLine("Total Skor: " + totalScore);
+            Console.WriteLine("Output : " + totalScore);
 
             Console.WriteLine("Exit : yes/no");
             string? exit = Console.ReadLine();
