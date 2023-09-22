@@ -10,8 +10,11 @@
 
 
 - [Query](#query)
+- [Hasil](#hasil)
 <br><br>
 
+ 
+<a href="https://docs.google.com/document/d/1rdLwijfC6XUYfhUfpQUSaA2yyja1Z-kB/edit?usp=sharing&ouid=105399210218477069880&rtpof=true&sd=true" target="_blank">Soal Code Test For Programmer Disini ...</a>
 
 <!-- Query -->
 ## Query
@@ -54,7 +57,12 @@ WHERE attendance.employee_id IS NULL;
 ___
 
 
+## Hasil
 
+
+
+
+___
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
