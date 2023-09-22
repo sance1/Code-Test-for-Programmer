@@ -51,7 +51,8 @@ FROM employees
 LEFT JOIN attendance ON employees.employee_id = attendance.employee_id
 WHERE attendance.employee_id IS NULL;
 
----
+___
+
 
 
 
