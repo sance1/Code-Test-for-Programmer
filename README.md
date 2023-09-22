@@ -9,7 +9,7 @@
 ## 🧐 Features
 
 
-- [Query](#-query)
+- [Query](#query)
 <br><br>
 
 
