@@ -59,6 +59,9 @@ ___
 
 ## Hasil
 
+<img width="440" alt="Screen Shot 2023-09-23 at 3 08 48 AM" src="https://github.com/sance1/Code-Test-for-Programmer/assets/92260329/1ffd4e5b-f2de-4050-acf4-61696eaee09a">
+
+
 
 
 
