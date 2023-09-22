@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{658098AD-3A86-4A5B-91D2-59E638972EE9}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodeTestForProgrammer/Program.cs">
+    <Files>
+      <File FileName="CodeTestForProgrammer/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodeTestForProgrammer" expanded="True">
+            <Node name="Case1" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Case1 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

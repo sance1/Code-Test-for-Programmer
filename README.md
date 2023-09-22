@@ -1,36 +1,57 @@
-<p align="center">
+<!-- <p align="center">
 <img width="1024" alt="Screen Shot 2023-08-19 at 2 14 08 PM" src="https://github.com/sance1/Project7Aug2023/assets/92260329/08498ce4-cdc4-411a-b920-b8e2f7e24396">
 </p>
 
+ -->
 
-<!-- Judul Proyek -->
-<h1 align="center">Hi 👋, I'm Sance Aenul Yakin</h1>
-
-<!-- Deskripsi Proyek -->
-<p align="center">
-  Professional Web Developer: Bridging Innovation and Functionality <br>
-  On this page you can get a website with an attractive appearance, with a programming language that is easy to understand
-</p>
-
-<!-- Status Build -->
-<p align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status">
-  </a>
-</p>
 
 <!-- Features -->
 ## 🧐 Features
 
 
-- [Contact Me](#-contact-me)
+- [Query](#-query)
 <br><br>
-<!-- ContactMe -->
-## 📞 Contact Me
-<p align="left"> <img src="https://yt3.googleusercontent.com/ytc/AOPolaT2maMGoYpbwsZyv_CozVKhPrdt177zhkDo_c3r=s900-c-k-c0x00ffffff-no-rj" alt="Sance Aenul Yakin" width="200" height="200"/> </p>
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sance1&label=Profile%20views&color=0e75b6&style=flat" alt="sance1" /> </p>
+## Query
+
+Buat Query DB untuk mendapatkan Total Undue (belum jatuh tempo) dan Total Overdue (sudah jatuh tempo). Dengan kondisi tanggal hari ini adalah 25 Mar 23. Dalam 1 query saja.
+
+SELECT 
+    SUM(CASE WHEN DueDate > '2023-03-25' THEN JumlahTagihan ELSE 0 END) AS TotalUndue,
+    SUM(CASE WHEN DueDate <= '2023-03-25' THEN JumlahTagihan ELSE 0 END) AS TotalOverdue
+FROM Tagihan;
+
+
+Buatlah dalam 1 query untuk mendapatkan duplicate data berdasarkan 1 field.
+
+SELECT column_name, COUNT(column_name) AS count
+FROM table_name
+GROUP BY column_name
+HAVING COUNT(column_name) > 1;
+
+Contoh
+SELECT email, COUNT(email) AS count
+FROM employees
+GROUP BY email
+HAVING COUNT(email) > 1;
+
+
+Buatlah dalam 1 query antara 2 table (misal TableA dan TableB), untuk menemukan data yang missing dari TableB, berdasarkan 1 field.
+
+SELECT TableA.field_name
+FROM TableA
+LEFT JOIN TableB ON TableA.field_name = TableB.field_name
+WHERE TableB.field_name IS NULL;
+
+Contoh
+SELECT employees.employee_id
+FROM employees
+LEFT JOIN attendance ON employees.employee_id = attendance.employee_id
+WHERE attendance.employee_id IS NULL;
+
+
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
