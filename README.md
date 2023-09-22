@@ -21,38 +21,38 @@
 
 Buat Query DB untuk mendapatkan Total Undue (belum jatuh tempo) dan Total Overdue (sudah jatuh tempo). Dengan kondisi tanggal hari ini adalah 25 Mar 23. Dalam 1 query saja.
 
-SELECT 
-    SUM(CASE WHEN DueDate > '2023-03-25' THEN JumlahTagihan ELSE 0 END) AS TotalUndue,
-    SUM(CASE WHEN DueDate <= '2023-03-25' THEN JumlahTagihan ELSE 0 END) AS TotalOverdue
-FROM Tagihan;
+    SELECT 
+        SUM(CASE WHEN DueDate > '2023-03-25' THEN JumlahTagihan ELSE 0 END) AS TotalUndue,
+        SUM(CASE WHEN DueDate <= '2023-03-25' THEN JumlahTagihan ELSE 0 END) AS TotalOverdue
+    FROM Tagihan;
 
 
 Buatlah dalam 1 query untuk mendapatkan duplicate data berdasarkan 1 field.
 
-SELECT column_name, COUNT(column_name) AS count
-FROM table_name
-GROUP BY column_name
-HAVING COUNT(column_name) > 1;
+    SELECT column_name, COUNT(column_name) AS count
+    FROM table_name
+    GROUP BY column_name
+    HAVING COUNT(column_name) > 1;
 
-Contoh
-SELECT email, COUNT(email) AS count
-FROM employees
-GROUP BY email
-HAVING COUNT(email) > 1;
+    Contoh
+    SELECT email, COUNT(email) AS count
+    FROM employees
+    GROUP BY email
+    HAVING COUNT(email) > 1;
 
 
 Buatlah dalam 1 query antara 2 table (misal TableA dan TableB), untuk menemukan data yang missing dari TableB, berdasarkan 1 field.
 
-SELECT TableA.field_name
-FROM TableA
-LEFT JOIN TableB ON TableA.field_name = TableB.field_name
-WHERE TableB.field_name IS NULL;
+    SELECT TableA.field_name
+    FROM TableA
+    LEFT JOIN TableB ON TableA.field_name = TableB.field_name
+    WHERE TableB.field_name IS NULL;
 
-Contoh
-SELECT employees.employee_id
-FROM employees
-LEFT JOIN attendance ON employees.employee_id = attendance.employee_id
-WHERE attendance.employee_id IS NULL;
+    Contoh
+    SELECT employees.employee_id
+    FROM employees
+    LEFT JOIN attendance ON employees.employee_id = attendance.employee_id
+    WHERE attendance.employee_id IS NULL;
 
 ___
 
