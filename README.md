@@ -71,6 +71,18 @@ Test Case 2
 
 Test Case 3
 <br>
+<img width="758" alt="test3" src="https://github.com/sance1/Code-Test-for-Programmer/assets/92260329/2b64835e-92d2-4777-b819-5d833a56db2a">
+
+Test Case 4
+<br>
+<img width="937" alt="test 4" src="https://github.com/sance1/Code-Test-for-Programmer/assets/92260329/9656c2f6-5dd8-44b4-8c46-831146092525">
+
+
+
+
+
+
+
 
 
 
